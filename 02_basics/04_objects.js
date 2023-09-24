@@ -49,4 +49,30 @@ const obj3 = {...obj1, ...obj2}
 // console.log(Object.keys(tinderuser));
 // console.log(Object.entries(tinderuser));
 
-console.log(tinderuser.hasOwnProperty("isLoggedIn"));
+// console.log(tinderuser.hasOwnProperty("isLoggedIn"));
+
+
+const course = {
+    coursename: "Js in hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor
+
+const{courseInstructor: instructor} = course 
+const{coursename :name} = course 
+
+console.log(instructor);
+console.log(name);
+
+
+//JSON
+
+// {
+//     "name":"hitesh",
+//     "coursename":"JS in hindi",   // keys are also strings.
+//     "price":"free"
+// }
+
+/// API's are JSON format document.
