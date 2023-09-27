@@ -20,7 +20,7 @@ myArr.shift()
 
 // console.log(myArr.includes("khalid"));  It gives you value in Boolean.
 
-// const newArr = myArr.join()
+// const newArr = myArr.join() // Join operator is used to convert Array i to strings.
 
 // console.log(myArr);
 // console.log(newArr);

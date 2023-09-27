@@ -37,4 +37,4 @@ console.log(url.replace('%20', '-'));
 
 console.log(url.includes("shubham"));
 
-console.log(gameName.split("-")); /* results came in array
+console.log(gameName.split("-")); //results came in array

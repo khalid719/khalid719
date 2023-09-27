@@ -85,6 +85,8 @@ function handleObject(anyObject){
   console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`); 
 }
 // handleObject(user)
+
+                                
 handleObject({
     username: "WAHYCODE",
     price: 299
